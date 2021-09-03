@@ -73,4 +73,7 @@ let jsonObject = try? a.e.jsonObject()
 
 // get fileURL of a.bundle/f.mp4
 let fileURL = try? a.f.videoFileURL()
+
+// a func to get file data in a.bundle
+func data(name: String) throws -> Data { try a[name].data() }
 ```
