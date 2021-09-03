@@ -35,7 +35,7 @@ ${BUILD_DIR%Build/*}SourcePackages/checkouts/KResource/KResource/KEncrypter a.bu
 KResource.resource.encrypt = "123456789"
 ```
 
-- use `-o` or `--o` to set output file name, default is `EXECUTABLE_NAME.resource`
+- use `-o` or `--output` to set output file name, default is `EXECUTABLE_NAME.resource`
 
 ```
 ${BUILD_DIR%Build/*}SourcePackages/checkouts/KResource/KResource/KEncrypter a.bundle b.bundle c.bundle -e 123456789 -o a.data
